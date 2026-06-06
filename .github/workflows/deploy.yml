@@ -1,4 +1,4 @@
-name: CI/CD Pipeline – UAS MultiApp
+﻿name: CI/CD Pipeline - UAS MultiApp
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/web-static-uas:latest
 
   build-dinamis:
-    name: Build Web Dinamis (PHP)
+    name: Build Web Dinamis PHP
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -59,4 +59,4 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/web-dinamis-uas:latest
             docker compose up -d --no-deps --force-recreate web-static web-dinamis nginx
             docker image prune -f
-            echo "✅ Deploy selesai – $(date)"
+            echo "Deploy selesai $(date)"
