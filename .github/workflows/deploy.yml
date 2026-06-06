@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - uses: docker/build-push-action@v5
         with:
-          context: ./perpustakaan
+          context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/web-dinamis-uas:latest
 
@@ -46,7 +46,7 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
-          source: "docker-compose.yml,nginx/,perpustakaan/docker/"
+          source: "docker-compose.yml,nginx/,docker/"
           target: "~/uas-app"
       - uses: appleboy/ssh-action@v1.0.3
         with:
