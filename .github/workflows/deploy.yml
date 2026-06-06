@@ -57,6 +57,9 @@ jobs:
             cd ~/uas-app
             docker pull ${{ secrets.DOCKER_USERNAME }}/web-static-uas:latest
             docker pull ${{ secrets.DOCKER_USERNAME }}/web-dinamis-uas:latest
-            docker compose up -d --no-deps --force-recreate web-static web-dinamis nginx
+            docker stop web-static || true
+            docker rm web-static || true
+            docker run -d --name web-static --network uas-app_appnet kakangwildan/web-static-uas:latest
+            docker compose up -d --no-deps --force-recreate web-dinamis nginx
             docker image prune -f
             echo "Deploy selesai $(date)"
