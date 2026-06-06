@@ -1,20 +1,12 @@
-version: '3.8'
-
-services:
-
-  # ── Web Statis (Nginx) ──
+﻿services:
   web-static:
-    image: nginx:alpine
+    image: kakangwildan/web-static-uas:latest
     container_name: web-static
-    volumes:
-      - ./web-static:/usr/share/nginx/html:ro
     networks:
       - appnet
 
-  # ── Web Dinamis (PHP + Apache) ──
   web-dinamis:
-    build:
-      context: ./perpustakaan
+    image: kakangwildan/web-dinamis-uas:latest
     container_name: web-dinamis
     environment:
       DB_HOST: db
@@ -27,7 +19,6 @@ services:
     networks:
       - appnet
 
-  # ── MariaDB ──
   db:
     image: mariadb:10.11
     container_name: db
@@ -36,7 +27,7 @@ services:
       MYSQL_DATABASE: perpustakaan
     volumes:
       - db_data:/var/lib/mysql
-      - ./perpustakaan/docker/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 10s
@@ -45,7 +36,6 @@ services:
     networks:
       - appnet
 
-  # ── Nginx Reverse Proxy ──
   nginx:
     image: nginx:alpine
     container_name: nginx-proxy
