@@ -509,9 +509,7 @@ xxx            USERNAME/web-static-uas        80/tcp               web-static
 
 <img width="960" height="600" alt="image-10" src="https://github.com/user-attachments/assets/9c7e8310-c1d5-4241-b4ac-40968f9d3af8" />
 
-<img width="960" height="600" alt="image-11" src="https://github.com/user-attachments/assets/cd4c9457-faee-4e63-9917-4291c609bf16" />
-
-<img width="960" height="600" alt="image-12" src="https://github.com/user-attachments/assets/acb7bdcf-bb40-44b8-ae2a-e10e7571a1b4" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/6b55dc76-d65c-4673-be6a-4162de2827e6" />
 
 
 ---
