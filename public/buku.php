@@ -123,7 +123,7 @@ require_once __DIR__ . '/../src/layout_top.php';
     </div>
     <div style="display:flex;gap:8px;">
       <button type="submit" class="btn btn-primary">
-        <?= $editData ? 'Simpan Perubahan' : 'Tambah Buku' ?>
+        <?= $editData ? 'Simpan Pembaruan' : 'Tambah Buku' ?>
       </button>
       <?php if ($editData): ?>
       <a href="buku.php" class="btn" style="background:#f1f5f9;color:#475569;">Batal</a>

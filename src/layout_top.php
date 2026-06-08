@@ -117,7 +117,7 @@ tr:hover td{background:#fafbff;}
   <div class="sidebar-user">
     <div class="uname"><?= htmlspecialchars($user['nama']) ?></div>
     <div class="urole"><?= $user['role'] ?></div>
-    <a href="logout.php">exit →</a>
+    <a href="logout.php"> exit →</a>
   </div>
 </aside>
 
