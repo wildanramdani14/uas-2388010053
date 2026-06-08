@@ -143,13 +143,14 @@ Aplikasi manajemen perpustakaan dengan fitur:
 
 ### Screenshot Aplikasi
 
-![alt text](image-1.png)
+<img width="960" height="600" alt="image-1" src="https://github.com/user-attachments/assets/a5818809-d15d-4d75-81aa-c5d0e55107bc" />
 
-[alt text](image-2.png)
+<img width="960" height="600" alt="image-2" src="https://github.com/user-attachments/assets/bc52f336-967b-4247-8630-b6d0f371a298" />
 
-![alt text](image-3.png)
+<img width="960" height="600" alt="image-3" src="https://github.com/user-attachments/assets/b4527ac7-b717-4098-91e9-30e0e3d9e87c" />
 
-![alt text](image-4.png)
+<img width="960" height="600" alt="image-4" src="https://github.com/user-attachments/assets/4f35c642-d06c-461d-9696-2e9b057602a1" />
+
 
 ---
 
@@ -286,7 +287,7 @@ git remote add origin https://github.com/USERNAME/UAS-NIM.git
 git push -u origin main
 ```
 
-![alt text](image-5.png)
+<img width="960" height="600" alt="image-5" src="https://github.com/user-attachments/assets/c1280e68-e015-4bc8-9b7c-8c9ae589bc39" />
 
 ---
 
@@ -312,7 +313,8 @@ git push -u origin main
 1. EC2 → **Elastic IPs** → **Allocate Elastic IP**
 2. Klik **Associate** → pilih instance → **Associate**
 
-![alt text](image-6.png)
+<img width="960" height="600" alt="image-6" src="https://github.com/user-attachments/assets/1a41e9e9-6714-4ab7-b11c-7b32f19b29d2" />
+
 
 ### Install Docker di EC2
 Sambungkan ke EC2 via SSH:
@@ -347,7 +349,8 @@ docker --version
 docker compose version
 ```
 
-![alt text](image-7.png)
+<img width="527" height="381" alt="image-7" src="https://github.com/user-attachments/assets/2fff6b58-d092-4bd1-ad52-90a7672c4c75" />
+
 
 ### Setup Auto-Start Container
 
@@ -466,7 +469,8 @@ jobs:
             echo "Deploy selesai $(date)"
 ```
 
-![alt text](image-8.png)
+<img width="960" height="600" alt="image-8" src="https://github.com/user-attachments/assets/611fcdc6-abdb-4f01-9c9b-8b61daeb45ec" />
+
 
 ---
 
@@ -492,7 +496,8 @@ xxx            mariadb:10.11                  3306/tcp             db
 xxx            USERNAME/web-static-uas        80/tcp               web-static
 ```
 
-![alt text](image-9.png)
+<img width="863" height="500" alt="image-9" src="https://github.com/user-attachments/assets/8c925eb8-5955-4708-96a8-e987693eaa81" />
+
 
 ### Akses Aplikasi di Browser
 
@@ -501,11 +506,12 @@ xxx            USERNAME/web-static-uas        80/tcp               web-static
 | Web CV Statis | `http://IP_EC2/` |
 | Perpustakaan (Login) | `http://IP_EC2/perpustakaan/login.php` |
 
-![alt text](image-10.png)
+<img width="960" height="600" alt="image-10" src="https://github.com/user-attachments/assets/9c7e8310-c1d5-4241-b4ac-40968f9d3af8" />
 
-![alt text](image-11.png)
+<img width="960" height="600" alt="image-11" src="https://github.com/user-attachments/assets/cd4c9457-faee-4e63-9917-4291c609bf16" />
 
-![alt text](image-12.png)
+<img width="960" height="600" alt="image-12" src="https://github.com/user-attachments/assets/acb7bdcf-bb40-44b8-ae2a-e10e7571a1b4" />
+
 
 ---
 
