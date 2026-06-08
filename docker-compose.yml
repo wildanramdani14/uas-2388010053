@@ -1,12 +1,16 @@
 ﻿services:
   web-static:
-    image: kakangwildan/web-static-uas:latest
+    build:
+      context: .
+      dockerfile: web-static/Dockerfile
     container_name: web-static
     networks:
       - appnet
 
   web-dinamis:
-    image: kakangwildan/web-dinamis-uas:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: web-dinamis
     environment:
       DB_HOST: db
