@@ -19,7 +19,7 @@ require_once __DIR__ . '/../src/layout_top.php';
 ?>
 
 <div class="page-header">
-  <h1>Dashboard</h1>
+  <h1>Menu aja</h1>
   <p>Selamat datang, <?= htmlspecialchars($user['nama']) ?>!</p>
 </div>
 
