@@ -20,7 +20,7 @@ require_once __DIR__ . '/../src/layout_top.php';
 
 <div class="page-header">
   <h1>Menu Dashboard</h1>
-  <p>Selamat datang Kakang, <?= htmlspecialchars($user['nama']) ?>!</p>
+  <p>Selamat datang Kakang Arip, <?= htmlspecialchars($user['nama']) ?>!</p>
 </div>
 
 <div class="stats">
