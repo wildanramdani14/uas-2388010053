@@ -143,13 +143,14 @@ Aplikasi manajemen perpustakaan dengan fitur:
 
 ### Screenshot Aplikasi
 
-<img width="960" height="600" alt="image-1" src="https://github.com/user-attachments/assets/a5818809-d15d-4d75-81aa-c5d0e55107bc" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/9f643e10-d871-415b-a2db-4ccbc3785aa2" />
 
-<img width="960" height="600" alt="image-2" src="https://github.com/user-attachments/assets/bc52f336-967b-4247-8630-b6d0f371a298" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/879346fa-fe8d-4e72-9f34-34ae1bfb5ed7" />
 
-<img width="960" height="600" alt="image-3" src="https://github.com/user-attachments/assets/b4527ac7-b717-4098-91e9-30e0e3d9e87c" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/2f26861e-c477-484f-b7a9-40842b3df8f7" />
 
-<img width="960" height="600" alt="image-4" src="https://github.com/user-attachments/assets/4f35c642-d06c-461d-9696-2e9b057602a1" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/a82d4319-ed56-4fb1-901a-b01acb9b8851" />
+
 
 
 ---
