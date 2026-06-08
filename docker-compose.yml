@@ -1,17 +1,15 @@
 ﻿services:
   web-static:
-    build:
-      context: .
-      dockerfile: web-static/Dockerfile
+    image: kakangwildan/web-static-uas:latest
     container_name: web-static
+    restart: always
     networks:
       - appnet
 
   web-dinamis:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: kakangwildan/web-dinamis-uas:latest
     container_name: web-dinamis
+    restart: always
     environment:
       DB_HOST: db
       DB_NAME: perpustakaan
@@ -26,6 +24,7 @@
   db:
     image: mariadb:10.11
     container_name: db
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: perpustakaan
@@ -43,6 +42,7 @@
   nginx:
     image: nginx:alpine
     container_name: nginx-proxy
+    restart: always
     ports:
       - "80:80"
       - "3000:3000"
