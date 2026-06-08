@@ -111,7 +111,8 @@ EXPOSE 80
 ```
 
 ### Screenshot Web Statis
-![alt text](image.png)
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/25a290ff-f158-4ec9-b25a-abb54cc43e19" />
+
 
 ---
 
